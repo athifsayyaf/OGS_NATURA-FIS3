@@ -19,6 +19,14 @@ The pilot study area is Joshimath, Uttarakhand, India. The area was selected bec
 | Extended IEEE report/source | `reports/ieee_detailed/` |
 | One-slide oral summary PDF | `presentation/D01_one_slide_summary.pdf` |
 
+## Additional Self-Initiated Work
+
+Beyond the required mini-project tasks, I also developed a GUI-based prototype software for landslide susceptibility and monitoring workflows. The software is shared separately here:
+
+[SlopeGuard AI - GUI software prototype](https://github.com/athifsayyaf/SlopeGuard)
+
+This was built as an additional self-initiated effort to package the GIS, InSAR, model-comparison, map-preview, and report-generation workflow into a more user-friendly software interface.
+
 ## Main Result
 
 Two Random Forest models were compared using spatial cross-validation over the common valid InSAR coverage.
