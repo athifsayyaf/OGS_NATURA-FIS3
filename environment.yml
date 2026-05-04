@@ -1,0 +1,17 @@
+name: joshimath-lsm
+channels:
+  - conda-forge
+dependencies:
+  - python>=3.10
+  - numpy
+  - pandas
+  - rasterio
+  - matplotlib
+  - pyproj
+  - scipy
+  - scikit-learn
+  - pyshp
+  - joblib
+  - pillow
+  - reportlab
+  - python-docx

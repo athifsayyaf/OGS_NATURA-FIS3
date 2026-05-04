@@ -1,0 +1,12 @@
+numpy
+pandas
+rasterio
+matplotlib
+pyproj
+scipy
+scikit-learn
+pyshp
+joblib
+Pillow
+reportlab
+python-docx

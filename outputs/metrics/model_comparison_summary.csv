@@ -1,0 +1,3 @@
+experiment,features,samples,positive_samples,negative_samples,spatial_blocks,cv_folds,AUROC,F1,precision,recall
+without_insar,"elevation, slope, aspect, twi, ndvi",28,14,14,23,5,0.8724489795918366,0.8275862068965517,0.8,0.8571428571428571
+with_insar,"elevation, slope, aspect, twi, ndvi, insar_velocity",28,14,14,23,5,0.8928571428571429,0.8571428571428571,0.8571428571428571,0.8571428571428571

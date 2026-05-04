@@ -1,0 +1,76 @@
+[
+  {
+    "experiment": "without_insar",
+    "features": [
+      "elevation",
+      "slope",
+      "aspect",
+      "twi",
+      "ndvi"
+    ],
+    "samples": 28,
+    "positive_samples": 14,
+    "negative_samples": 14,
+    "spatial_blocks": 23,
+    "cv_folds": 5,
+    "oof_auroc": 0.8724489795918366,
+    "oof_f1": 0.8275862068965517,
+    "oof_precision": 0.8,
+    "oof_recall": 0.8571428571428571,
+    "confusion_matrix": [
+      [
+        11,
+        3
+      ],
+      [
+        2,
+        12
+      ]
+    ],
+    "feature_importance": {
+      "elevation": 0.5984538555435746,
+      "slope": 0.09626172732123614,
+      "aspect": 0.1593372088195156,
+      "twi": 0.05822265797506045,
+      "ndvi": 0.08772455034061315
+    }
+  },
+  {
+    "experiment": "with_insar",
+    "features": [
+      "elevation",
+      "slope",
+      "aspect",
+      "twi",
+      "ndvi",
+      "insar_velocity"
+    ],
+    "samples": 28,
+    "positive_samples": 14,
+    "negative_samples": 14,
+    "spatial_blocks": 23,
+    "cv_folds": 5,
+    "oof_auroc": 0.8928571428571429,
+    "oof_f1": 0.8571428571428571,
+    "oof_precision": 0.8571428571428571,
+    "oof_recall": 0.8571428571428571,
+    "confusion_matrix": [
+      [
+        12,
+        2
+      ],
+      [
+        2,
+        12
+      ]
+    ],
+    "feature_importance": {
+      "elevation": 0.46211716317234686,
+      "slope": 0.08769056505540272,
+      "aspect": 0.13925970830653098,
+      "twi": 0.03556837956973676,
+      "ndvi": 0.0874233947881245,
+      "insar_velocity": 0.18794078910785816
+    }
+  }
+]

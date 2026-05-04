@@ -1,0 +1,17 @@
+*.pdf binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.tif binary
+*.tiff binary
+*.docx binary
+*.rtf binary
+*.zip binary
+*.csv text
+*.json text
+*.md text
+*.py text
+*.tex text
+*.bib text
+*.yml text
+*.txt text
