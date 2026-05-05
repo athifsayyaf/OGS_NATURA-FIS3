@@ -6,19 +6,6 @@ This repository contains the Stage 2 mini-project submission for landslide susce
 
 The pilot study area is Joshimath, Uttarakhand, India. The area was selected because it is a steep Himalayan terrain with known slope-instability concerns and a landslide inventory available for rasterization.
 
-## Evaluation-Focused Summary
-
-| Requirement | Repository location |
-|---|---|
-| Clean Python code | `code/` |
-| Reproducible dependencies | `requirements.txt`, `environment.yml` |
-| GIS-ready stack outputs | `outputs/rasters/` |
-| At least one map | `outputs/maps/susceptibility_with_insar.png` |
-| Quantitative metrics | `outputs/metrics/model_comparison_summary.csv` |
-| IEEE two-column report | `reports/ieee_2page/D01_IEEE_two_column_report.pdf` |
-| Extended IEEE report/source | `reports/ieee_detailed/` |
-| One-slide oral summary PDF | `presentation/D01_one_slide_summary.pdf` |
-
 ## Additional Self-Initiated Work
 
 Beyond the required mini-project tasks, I also developed a GUI-based prototype software for landslide susceptibility and monitoring workflows. The software is shared separately here:
@@ -50,31 +37,7 @@ Adding InSAR LOS velocity gave a modest improvement in AUROC and F1-score. The i
    - expanded terrain/optical/InSAR model
 7. Export AUROC, F1-score, confusion matrices, ROC curves, feature importance, and susceptibility maps.
 
-## Run Order
-
-The scripts are arranged in the order used to build the outputs:
-
-```bash
-python code/create_joshimath_slope_map.py
-python code/create_joshimath_aspect_map.py
-python code/create_joshimath_twi_map.py
-python code/create_joshimath_ndvi_map.py
-python code/prepare_joshimath_lsm_rf.py
-```
-
 The scripts currently preserve the original local data paths used during the assignment. The committed `outputs/` folder contains the generated products needed to inspect and evaluate the result without downloading the full raw data archive.
-
-## Repository Structure
-
-```text
-code/                 Python workflow scripts
-outputs/maps/         PNG map panels and model diagnostics
-outputs/metrics/      CSV/JSON metrics and training sample summary
-outputs/rasters/      GeoTIFF stack and susceptibility rasters
-reports/ieee_2page/   Required concise IEEE-style report
-reports/ieee_detailed Extended Word/LaTeX/PDF/HTML/RTF report package
-presentation/         One-slide PDF and PNG summary for oral interview
-```
 
 ## Important Limitations
 
